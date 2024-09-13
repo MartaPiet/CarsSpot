@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TailwindCSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper.js CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./input.css" rel="stylesheet" />
+    <title>Pietrzak Marta_Rekrutacja</title>
+  </head>
+  <body class="">
+    <main>
+      <nav>
+        <div
+          class="pl-120px pr-120px flex items-center justify-between font-roboto-f pt-4 pb-4"
+        >
+          <a href="#" class=""> <img src="img/logo.jpg" alt="Logo" /></a>
+          <ul class="flex space-x-6">
+            <li>
+              <a
+                href="#galeria-section"
+                class="text-base after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-transparent hover:after:bg-custom-blue hover:text-custom-blue"
+                >Galeria zdjęć
+              </a>
+            </li>
+            <li>
+              <a
+                href="#FaQ-section"
+                class="text-base after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-transparent hover:after:bg-custom-blue hover:text-custom-blue"
+                >FaQ</a
+              >
+            </li>
+          </ul>
+          <button
+            class="text-15-base bg-custom-blue text-white py-2 px-4 rounded"
+          >
+            Zadzwoń do nas
+          </button>
+        </div>
+      </nav>
+
+      <div
+        class="pl-[120px] flex justify-between items-start pt-[120px] pb-[120px] bg-white"
+      >
+        <!-- Lewa strona: Tekst i przyciski -->
+        <div class="flex flex-col space-y-4 h-auto self-start">
+          <div class="font-bebas-neue text-11xl text-left">
+            <p>Sprzedajemy samochody</p>
+            <p>z Europy</p>
+          </div>
+          <div class="font-roboto-c text-base pt-8">
+            <p>Kup komfortowy pojazd, aby każda podróż</p>
+            <p>była wyjątkowym przeżyciem</p>
+          </div>
+          <div class="space-x-4 pt-10">
+            <button
+              class="text-15-base bg-custom-blue text-white py-2 px-4 rounded"
+            >
+              Zobacz zdjęcia
+            </button>
+            <button
+              class="text-15-base bg-white text-custom-blue py-2 px-4 rounded border border-custom-blue hover:bg-custom-blue hover:text-white"
+            >
+              Zadzwoń do nas
+            </button>
+          </div>
+        </div>
+
+        <div class="relative w-[1064px] h-[404px] mt-32">
+          <div class="absolute top-[340px] left-0 w-full z-0">
+            <img
+              src="img/cień.jpg"
+              alt="Cienie"
+              class="w-full h-full object-cover opacity-100"
+            />
+          </div>
+          <img
+            src="img/Hero.png"
+            alt="Samochody"
+            class="relative w-full h-full object-cover z-10"
+          />
+        </div>
+      </div>
+
+      <section id="galeria-section">
+        <header class="pt-20 pl-120px">
+          <p class="text-custom-blue font-roboto-c text-1xs">
+            Prezentacja firmy
+          </p>
+          <p class="font-bebas-neue text-10xl">Zobacz naszą galerię zdjęć</p>
+          <ul class="pt-6">
+            <li class="inline-block font-roboto-f relative">
+              <a
+                href="#Samochody-osobowe-section"
+                id="osobowe-btn"
+                class="after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-transparent hover:after:bg-custom-blue hover:text-custom-blue py-[24px]"
+              >
+                Samochody osobowe
+              </a>
+            </li>
+            <li class="inline-block font-roboto-f relative ml-8">
+              <a
+                href="#Samochody-dostawcze-section"
+                id="dostawcze-btn"
+                class="after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-transparent hover:after:bg-custom-blue hover:text-custom-blue py-[24px]"
+              >
+                Samochody dostawcze
+              </a>
+            </li>
+          </ul>
+        </header>
+      </section>
+
+      <section id="Samochody-osobowe-section" class="relative overflow-hidden">
+        <div id="osobowe-section" class="pl-28 pt-20 pb-20 flex">
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/pexels-photo-210019.jpeg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/pexels-photo-977003.jpeg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/Images.jpg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/pexels-photo-977003.jpeg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/pexels-photo-977003.jpeg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div
+          class="absolute bottom-7 left-1/2 -translate-x-1/2 flex space-x-2 mt-4 z-10 dots-container" id="osobowe-dots"
+        >
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="0"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="1"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="2"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="3"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="4"
+          ></button>
+        </div>
+      </section>
+
+      <section id="Samochody-dostawcze-section" class="relative overflow-hidden">
+        <div id="dostawcze-section" class="pl-28 pt-20 pb-20 flex">
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/Renault.jpg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/citroen.jpg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/opel.jpg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/peugeot.jpg"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide w-[600px] h-[446px] object-cover mr-12">
+            <img
+              src="img/iveco.png"
+              alt="pojazd"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div
+          class="absolute bottom-7 left-1/2 -translate-x-1/2 flex space-x-2 mt-4 z-10 dots-container" id="dostawcze-dots">
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="0"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="1"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="2"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="3"
+          ></button>
+          <button
+            class="dot bg-gray-100 w-2 h-2 rounded-full"
+            data-slide="4"
+          ></button>
+        </div>
+      </section>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          // Elementy sekcji
+          const osoboweBtn = document.getElementById("osobowe-btn");
+          const dostawczeBtn = document.getElementById("dostawcze-btn");
+
+          const osoboweSection = document.getElementById("Samochody-osobowe-section");
+          const dostawczeSection = document.getElementById("Samochody-dostawcze-section");
+
+          const osoboweContainer = document.getElementById("osobowe-section");
+          const dostawczeContainer = document.getElementById("dostawcze-section");
+
+          const osoboweDots = document.getElementById("osobowe-dots");
+          const dostawczeDots = document.getElementById("dostawcze-dots");
+
+          // Domyślnie pokazujemy samochody osobowe
+          osoboweSection.classList.remove("hidden");
+          dostawczeSection.classList.add("hidden");
+
+          let currentSlide = 0;
+          let slidesContainer = osoboweContainer;
+          let slides = osoboweContainer.querySelectorAll(".swiper-slide");
+
+          let dotsContainer = osoboweDots;
+          const dots = document.querySelectorAll(".dot");
+
+          // Funkcja do ustawienia szerokości kontenera
+          function setContainerWidth() {
+            const totalWidth = Array.from(slides).reduce((acc, slide) => {
+              return acc + slide.offsetWidth;
+            }, 0);
+            slidesContainer.style.width = `${totalWidth}px`; // Ustaw szerokość kontenera na sumę szerokości wszystkich slajdów
+          }
+
+ // Funkcja do zmiany slajdu
+ function goToSlide(slideIndex) {
+  const slideWidth = slides[0].offsetWidth; // Szerokość slajdu (600px)
+  const gapBetweenSlides = parseFloat(getComputedStyle(slides[0]).marginRight); // Pobierz margines między slajdami
+  
+  const offset = -slideIndex * (slideWidth + gapBetweenSlides); // Obliczenie przesunięcia
+  
+  console.log(`Going to slide index: ${slideIndex}`);
+  console.log(`Offset: ${offset}px`);
+
+
+
+  slidesContainer.style.transform = `translateX(${offset}px)`;
+  slidesContainer.style.transition = "transform 0.5s ease-in-out"; // Płynne przesuwanie
+
+  // Zmiana aktywnej kropki dla odpowiedniej sekcji
+  dots.forEach((dot, index) => {
+    if (index === slideIndex) {
+      dot.classList.add("bg-custom-blue");
+      dot.classList.remove("bg-gray-100");
+    } else {
+      dot.classList.remove("bg-custom-blue");
+      dot.classList.add("bg-gray-100");
+    }
+  });
+}
+
+          // Obsługa kliknięcia w kropki
+          dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+              goToSlide(index);
+            });
+          });
+
+          // Automatyczne przesuwanie co 3 sekundy
+          let isHovered = false;
+          slidesContainer.addEventListener("mouseenter", () => {
+            isHovered = true;
+          });
+
+          slidesContainer.addEventListener("mouseleave", () => {
+            isHovered = false;
+          });
+
+          setInterval(() => {
+            if (!isHovered) {
+              currentSlide = (currentSlide + 1) % slides.length;
+              goToSlide(currentSlide);
+            }
+          }, 3000); // Przesuwanie co 3 sekundy
+
+          // Inicjalnie ustawiamy szerokość kontenera i pierwszą kropkę jako aktywną
+          setContainerWidth();
+          goToSlide(0);
+
+          // Przełącz na samochody osobowe
+          osoboweBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            osoboweSection.classList.remove("hidden");
+            dostawczeSection.classList.add("hidden");
+
+            osoboweDots.classList.remove("hidden");
+            dostawczeDots.classList.add("hidden");
+
+            // Zaktualizuj slajdy i kontener na osobowe
+            slidesContainer = osoboweContainer;
+            slides = osoboweContainer.querySelectorAll(".swiper-slide");
+
+            dotsContainer = osoboweDots;
+            dots = dotsContainer.querySelectorAll(".dot");
+
+            // Ustaw szerokość kontenera
+            setContainerWidth();
+
+            // Zresetuj slider
+            currentSlide = 0;
+            goToSlide(0);
+          });
+
+// Przełącz na samochody dostawcze
+dostawczeBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  // Pokaż sekcję dostawczą, ukryj sekcję osobową
+  dostawczeSection.classList.remove("hidden");
+  osoboweSection.classList.add("hidden");
+
+  // Pokaż kropki dla dostawczych, ukryj kropki dla osobowych
+  dostawczeDots.classList.remove("hidden");
+  osoboweDots.classList.add("hidden");
+
+  // Zaktualizuj slajdy i kontener na dostawcze
+  slidesContainer = dostawczeContainer;
+  slides = dostawczeContainer.querySelectorAll(".swiper-slide");
+
+  // Zaktualizuj kontener kropek na dostawcze
+  dotsContainer = dostawczeDots;
+  dots = dotsContainer.querySelectorAll(".dot");
+
+            // Ustaw szerokość kontenera
+            setContainerWidth();
+
+            // Zresetuj slider
+            currentSlide = 0;
+            goToSlide(0);
+          });
+        });
+      </script>
+
+<section>
+    <div class="flex flex-wrap justify-center items-center mx-auto pt-88px pb-88px bg-custom-gray text-white space-x-12 gap-[80px]">
+        <!-- Pierwsza kolumna -->
+      <div class="w-[576px] h-[185px]">
+        <h3 class="font-bebas-neue mb-4 text-[25px]">
+          Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.
+        </h3>
+        <p class="font-roboto-c mb-6">
+          Mauris varius ipsum mauris, rutum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis effictur mi, ac venenatis eros ipsumm ac arcu. Vestibulum et [...]
+        </p>
+        <button class="font-roboto-c underline underline-offset-8 text-sm flex items-center">
+          Rozwiń ↓</span>
+        </button>
+      </div>
+  
+      <!-- Druga kolumna -->
+      <div class="w-[576px] h-[185px]">
+        <h3 class="font-bebas-neue text-xl mb-4 text-[25px]">
+          Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.
+        </h3>
+        <p class="font-roboto-c mb-6">
+          Mauris varius ipsum mauris, rutum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis effictur mi, ac venenatis eros ipsumm ac arcu. Vestibulum et [...]
+        </p>
+        <button class="font-roboto-c underline underline-offset-8 text-sm flex items-center">
+          Rozwiń   ↓ 
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+    </main>
+
+    <hr class="border-t-1 border-white mx-120px" />
+
+    <section id="FaQ-section">
+      <ul
+        class="bg-custom-gray text-white font-roboto-c- pt-6 pb-6 pl-120px pr-120px flex items-center justify-between"
+      >
+        <li class="">Cars Spot</li>
+        <li class=""><a href="#">Polityka prywatności</a></li>
+      </ul>
+    </section>
+  </body>
+</html>
